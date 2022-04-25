@@ -1,15 +1,30 @@
 # desktop
+Flutter Android 返回到桌面
 
-A new Back to Desktop Flutter project.
+1.引用
 
-## Getting Started
+~~~
+dependencies:
+  desktop: 
+    git:
+      url: https://github.com/DickHoo/desktop.git
+~~~
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+使用
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+①：Widget使用
+
+~~~dart
+MainWidget(body:Widget,
+            fn: () => { Fluttertoast.showToast(msg: "再按一次退出软件")}
+          )
+~~~
+
+②：代码使用
+
+~~~dart
+Desktop.goBackDesktop
+~~~
+
+
 
