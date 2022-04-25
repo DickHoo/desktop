@@ -17,7 +17,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  fluttertoast: ^8.0.9 # toast
   desktop:
     # When depending on this package from a real application you should use:
     #   desktop: ^x.y.z
